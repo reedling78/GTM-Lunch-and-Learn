@@ -29,13 +29,13 @@
 
   <h2>Outbound Links</h2>
   <p>
-    <a href="http://yahoo.com" class="btn btn-default" aria-label="Sales Report 2013" download="SalesReport2013">
+    <a href="http://yahoo.com" class="btn btn-default" target="_blank">
       <span class="glyphicon glyphicon-save-file" aria-hidden="true"></span>Yahoo
     </a>
-    <a href="http://google.com" class="btn btn-default" aria-label="Sales Report 2014" download="SalesReport2014">
+    <a href="http://google.com" class="btn btn-default" target="_blank">
       <span class="glyphicon glyphicon-save-file" aria-hidden="true"></span>Google
     </a>
-    <a href="http://msn.com" class="btn btn-default" aria-label="Sales Report 2015" download="SalesReport2015">
+    <a href="http://msn.com" class="btn btn-default" target="_blank">
       <span class="glyphicon glyphicon-save-file" aria-hidden="true"></span>MSN
     </a>
     <code>
