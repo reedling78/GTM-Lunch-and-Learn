@@ -26,14 +26,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#">Google Tag Manager Demo</a>
+        <a class="navbar-brand" href="/">Google Tag Manager Demo</a>
       </div>
       <div id="navbar" class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
-          <li class="active"><a href="#">Home</a></li>
-          <li><a href="#">Link Tracking</a></li>
-          <li><a href="#">Form Tracking</a></li>
-          <li><a href="#">Cart Tracking</a></li>
+          <li class="active"><a href="/">Home</a></li>
+          <li><a href="links.php">Link Tracking</a></li>
+          <li><a href="forms.php">Form Tracking</a></li>
+          <li><a href="cart.php">Cart Tracking</a></li>
         </ul>
       </div><!--/.nav-collapse -->
     </div><!--/.container-fluid -->
