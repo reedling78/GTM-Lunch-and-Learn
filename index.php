@@ -1,3 +1,6 @@
+<?php
+  $page_title = "Google Tag Manager Lunch and Learn";
+?>
 <?php include_once("includes/header.php"); ?>
 
 <div class="jumbotron">

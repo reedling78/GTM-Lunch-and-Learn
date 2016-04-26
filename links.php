@@ -1,3 +1,6 @@
+<?php
+  $page_title = "Link Examples";
+?>
 <?php include_once("includes/header.php"); ?>
 
 <div class="jumbotron">
@@ -15,6 +18,25 @@
     </a>
     <a href="media/sample3.pdf" class="btn btn-default" aria-label="Sales Report 2015" download="SalesReport2015">
       <span class="glyphicon glyphicon-save-file" aria-hidden="true"></span>Sales Report 2015
+    </a>
+    <code>
+      <pre>
+        &lt;a href="media/sample1.pdf" class="btn btn-default" aria-label="Sales Report" download="SalesReport"&gt;
+          &lt;span class="glyphicon glyphicon-save-file" aria-hidden="true"&gt;&lt;/span&gt;Sales Report (PDF)
+        &lt;/a&gt;</pre>
+    </code>
+  </p>
+
+  <h2>Outbound Links</h2>
+  <p>
+    <a href="http://yahoo.com" class="btn btn-default" aria-label="Sales Report 2013" download="SalesReport2013">
+      <span class="glyphicon glyphicon-save-file" aria-hidden="true"></span>Yahoo
+    </a>
+    <a href="http://google.com" class="btn btn-default" aria-label="Sales Report 2014" download="SalesReport2014">
+      <span class="glyphicon glyphicon-save-file" aria-hidden="true"></span>Google
+    </a>
+    <a href="http://msn.com" class="btn btn-default" aria-label="Sales Report 2015" download="SalesReport2015">
+      <span class="glyphicon glyphicon-save-file" aria-hidden="true"></span>MSN
     </a>
     <code>
       <pre>

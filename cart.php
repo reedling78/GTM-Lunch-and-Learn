@@ -1,3 +1,6 @@
+<?php
+  $page_title = "Cart Examples";
+?>
 <?php include_once("includes/header.php"); ?>
 
 <div class="jumbotron">
