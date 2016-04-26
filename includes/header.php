@@ -38,6 +38,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           		<li><a href="cart.php">Cart Tracking</a></li>
 	            <li role="separator" class="divider"></li>
 	            <li><a href="wizard.php?step=1">Wizard Goal Conversion</a></li>
+	            <li><a href="store.php">Fake Store</a></li>
 	            <li role="separator" class="divider"></li>
 	            <li><a href="#">Custom Variables</a></li>
 	          </ul>
