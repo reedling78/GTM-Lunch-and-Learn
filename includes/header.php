@@ -2,17 +2,17 @@
 <html>
 <head>
 	<title><?php echo($page_title); ?></title>	
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" href="/libraries/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 </head>
 <body>
 
 <script>
 	var dataLayer = dataLayer || [];
 	dataLayer = [{
-	    'UA Tracking ID': 'UA-76928103-' + ((location.hostname === 'localhost') ? '2' : '1')
+	    'UA Tracking ID': 'UA-76928103-' + ((location.hostname === 'localhost') ? '2' : '1'),
+	    'Environment' : 'Production'
 	}];
 </script>
-
 
 <!-- Google Tag Manager -->
 <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NJQPJ3"
@@ -37,16 +37,30 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <a class="navbar-brand" href="/">Google Tag Manager Demo</a>
       </div>
       <div id="navbar" class="navbar-collapse collapse">
-        <ul class="nav navbar-nav">
+        <ul class="nav navbar-nav navbar-right">
         	<li class="dropdown">
-	          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Demos <span class="caret"></span></a>
+	          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Slides<span class="caret"></span></a>
 	          <ul class="dropdown-menu">
-	            <li><a href="links.php">Link Tracking</a></li>
-          		<li><a href="forms.php">Form Tracking</a></li>
-          		<li><a href="cart.php">Cart Tracking</a></li>
+	            <li><a href="/slides/whatisgtm.php">What is Google Tag Manager</a></li>
+          		<li><a href="/slides/tags.php">Tags</a></li>
+          		<li><a href="/slides/triggers.php">Triggers</a></li>
+          		<li><a href="/slides/variables.php">Variables</a></li>
 	            <li role="separator" class="divider"></li>
-	            <li><a href="wizard.php?step=1">Wizard Goal Conversion</a></li>
+	            <li><a href="wizard.php?step=1">Add Google Analytics</a></li>
 	            <li><a href="store.php">Fake Store</a></li>
+	            <li role="separator" class="divider"></li>
+	            <li><a href="#">Custom Variables</a></li>
+	          </ul>
+	        </li>
+        	<li class="dropdown">
+	          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Demos<span class="caret"></span></a>
+	          <ul class="dropdown-menu">
+	            <li><a href="/links.php">Link Tracking</a></li>
+          		<li><a href="/forms.php">Form Tracking</a></li>
+          		<li><a href="/cart.php">Cart Tracking</a></li>
+	            <li role="separator" class="divider"></li>
+	            <li><a href="/wizard.php?step=1">Wizard Goal Conversion</a></li>
+	            <li><a href="/store.php">Fake Store</a></li>
 	            <li role="separator" class="divider"></li>
 	            <li><a href="#">Custom Variables</a></li>
 	          </ul>
