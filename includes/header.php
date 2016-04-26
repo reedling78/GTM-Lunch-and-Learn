@@ -30,10 +30,18 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       </div>
       <div id="navbar" class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
-          <li class="active"><a href="/">Home</a></li>
-          <li><a href="links.php">Link Tracking</a></li>
-          <li><a href="forms.php">Form Tracking</a></li>
-          <li><a href="cart.php">Cart Tracking</a></li>
+        	<li class="dropdown">
+	          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Demos <span class="caret"></span></a>
+	          <ul class="dropdown-menu">
+	            <li><a href="links.php">Link Tracking</a></li>
+          		<li><a href="forms.php">Form Tracking</a></li>
+          		<li><a href="cart.php">Cart Tracking</a></li>
+	            <li role="separator" class="divider"></li>
+	            <li><a href="wizard.php?step=1">Wizard Goal Conversion</a></li>
+	            <li role="separator" class="divider"></li>
+	            <li><a href="#">Custom Variables</a></li>
+	          </ul>
+	        </li>
         </ul>
       </div><!--/.nav-collapse -->
     </div><!--/.container-fluid -->
