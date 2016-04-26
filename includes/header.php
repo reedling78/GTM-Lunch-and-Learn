@@ -6,6 +6,14 @@
 </head>
 <body>
 
+<script>
+	var dataLayer = dataLayer || [];
+	dataLayer = [{
+	    'UA Tracking ID': 'UA-76928103-' + ((location.hostname === 'localhost') ? '2' : '1')
+	}];
+</script>
+
+
 <!-- Google Tag Manager -->
 <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NJQPJ3"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
