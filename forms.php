@@ -11,8 +11,7 @@
   </p>
 </div>
 
-
-<form >
+<form>
   <div class="form-group">
     <label for="exampleInputEmail1">Email address</label>
     <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
@@ -28,6 +27,5 @@
   </div>
   <button type="submit" class="btn btn-default">Submit</button>
 </form>
-
 
 <?php include_once("includes/footer.php"); ?>
