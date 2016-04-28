@@ -7,7 +7,6 @@
 <body>
 
 <script>
-	var dataLayer = dataLayer || [];
 	dataLayer = [{
 	    'UA Tracking ID': 'UA-76928103-' + ((location.hostname === 'localhost') ? '2' : '1'),
 	    'Environment' : 'Production'
