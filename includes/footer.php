@@ -63,9 +63,7 @@
 
 				trans.transactionTotal = total;
 
-				
 				dataLayer.push(trans);
-				console.log(dataLayer);
 			}
 			
 

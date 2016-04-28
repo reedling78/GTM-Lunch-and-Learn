@@ -40,8 +40,8 @@
     </a>
     <code>
       <pre>
-        &lt;a href="media/sample1.pdf" class="btn btn-default" aria-label="Sales Report" download="SalesReport"&gt;
-          &lt;span class="glyphicon glyphicon-save-file" aria-hidden="true"&gt;&lt;/span&gt;Sales Report (PDF)
+        &lt;a href="http://google.com" class="btn btn-default" target="_blank"
+          &lt;span class="glyphicon glyphicon-save-file" aria-hidden="true"&gt;&lt;/span&gt;Google
         &lt;/a&gt;</pre>
     </code>
   </p>
